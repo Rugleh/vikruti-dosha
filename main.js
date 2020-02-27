@@ -2,6 +2,26 @@ $(document).ready(function() {
 
   AOS.init();
 
+  new Chart(document.getElementById("polar-chart"), {
+    type: 'doughnut',
+    data: {
+      labels: ["Vata", "Pitta", "Kapha"],
+      datasets: [
+        {
+          label: "Dosha",
+          backgroundColor: ["lightcoral", "orange","lightblue"],
+          data: [1, 1, 1]
+        }
+      ]
+    },
+    options: {
+      title: {
+        display: true,
+        text: 'Dosha Imbalance'
+      }
+    }
+});
+
     $("button").click(function(){
         var favorite = [];
         $.each($("input[name='question1']:checked"), function(){favorite.push($(this).val());});
