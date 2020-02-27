@@ -21,7 +21,7 @@
       height: 10px;
       border-radius: 50%;
       content: "";
-      background-color: #619b5b;
+      background-color: #28a745;
       position: absolute;
       left: 50%;
       top: 50%;
@@ -60,8 +60,8 @@
     }
 
     &:after {
-      background-color: #8fe67e;
-      border-color: #8fe67e;
+      background-color: #28a746;
+      border-color: #28a745;
     }
   }
 
@@ -146,7 +146,27 @@ code {
   margin-top: 50px;
 }
 
-#chart{
+.chart{
   padding-top: 50px;
   padding-bottom: 50px;
+}
+
+.footer{
+  font-size: 16px;
+}
+
+#doshanumbers{
+  margin-top: 40px;
+}
+
+#vata{
+  color: lightcoral;
+}
+
+#pitta{
+  color: orange;
+}
+
+#kapha{
+  color: lightblue;
 }
