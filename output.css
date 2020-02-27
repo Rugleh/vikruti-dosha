@@ -137,7 +137,7 @@ code {
 
 .chart {
   padding-top: 50px;
-  padding-bottom: 50px;
+  padding-bottom: 30px;
 }
 
 .footer {
@@ -158,6 +158,10 @@ code {
 
 #kapha {
   color: lightblue;
+}
+
+.result {
+  margin-right: 3px !important;
 }
 
 /*# sourceMappingURL=output.css.map */

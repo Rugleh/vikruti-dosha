@@ -166,7 +166,7 @@ $(document).ready(function() {
       document.getElementById("waterresult").innerHTML = 0;
     }
 
-    document.getElementById("percentages").innerHTML = 'Your are <b>'+pwind+'%</b> <span id="vata">Vata</span> - <b>'+pfire+'%</b> <span id="pitta">Pitta</span> - <b>'+pwater+'%</b> <span id="kapha">Kapha</span>';
+    document.getElementById("percentages").innerHTML = '<b>'+pwind+'% <span id="vata">Vata</span></b> <br> <b>'+pfire+'% <span id="pitta">Pitta</span> </b> <br>  <b>'+pwater+'% <span id="kapha">Kapha</span> </b>';
     
 
     myChart = new Chart(document.getElementById("polar-chart"), {
